@@ -9,7 +9,7 @@ var app = express();
 
 
 //set the port
-var port = process.env.port || 8080;
+var port = process.env.PORT || 8080;
 
 //middleware to use for all requests that posts to the log
 adminRouter.use(function(req,res,next){
